@@ -116,32 +116,3 @@ body {
     font-size: 0.9rem;
 }
 
-/* Media Queries for Responsive Design */
-
-/* Large Screens */
-@media (min-width: 1200px) {
-    .header h1 {
-        font-size: 3rem;
-    }
-
-    #searchBar {
-        width: 50%;
-    }
-
-    .book-card img {
-        max-height: 300px;
-    }
-}
-
-/* Medium Screens */
-@media (max-width: 768px) {
-    .filters {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #searchBar {
-        width: 90%;
-    }
-
-}   
