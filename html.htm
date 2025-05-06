@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Books Quiz</title>
+    <link rel="stylesheet" href="css.css"> <!-- Updated CSS file link -->
+    <script src="js.js" defer></script> <!-- Updated JS file link -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Fictional Books Quiz</h1>
+        <div id="quiz">
+            <p id="question">Loading...</p>
+            <div class="options">
+                <button class="option" onclick="nextQuestion(0)">Option 1</button>
+                <button class="option" onclick="nextQuestion(1)">Option 2</button>
+                <button class="option" onclick="nextQuestion(2)">Option 3</button>
+                <button class="option" onclick="nextQuestion(3)">Option 4</button>
+            </div>
+        </div>
+        <div id="score" class="score"></div>
+        <button id="next-button" class="next-button" onclick="loadNextQuestion()" style="display: none;">Next</button>
+    </div>
+    <script src="js.js"></script> <!-- Updated JS file link -->
+</body>
+</html>
