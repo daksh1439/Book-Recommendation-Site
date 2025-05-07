@@ -9,12 +9,12 @@ This project focuses on designing a simple and user-friendly Book Recommendation
 1. Clone this repository.
 2. Open `index.html` in your browser.
 
-Key Features:
-User-Friendly Interface
-Responsive Design
-Various Book Categories
-Interactive community page
-Fun Quiz 
+##Key Features:
+1. User-Friendly Interface
+2. Responsive Design
+3. Various Book Categories
+4. Interactive community page
+5. Fun Quiz 
 
 ## Team Members
 1. Daksh Gondi
