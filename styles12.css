@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6e3; /* Sepia tone background */
+  color: #5e4630; /* Brownish text for vintage look */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #a67c52; /* Warm brown header */
+  color: #fdf6e3;
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: 5px solid #5e4630;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-style: italic;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid #5e4630;
+  background: #fffbe8; /* A faded cream for the main area */
+  border-radius: 8px;
+}
+
+/* Add Book Form */
+#add-book {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #a67c52;
+  background-color: #fdf6e3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+}
+
+#add-book h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #5e4630;
+  border-bottom: 2px solid #a67c52;
+  padding-bottom: 5px;
+}
+
+form input, form textarea, form button {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #5e4630;
+  border-radius: 5px;
+  background: #fff;
+  color: #5e4630;
+}
+
+form button {
+  background-color: #a67c52;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+form button:hover {
+  background-color: #7f5a40;
+}
+
+/* Recommendations Section */
+#recommendations h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #5e4630;
+  text-align: center;
+}
+
+#recommendation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.recommendation {
+  background: #fdf6e3;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #5e4630;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation h3 {
+  font-size: 1.5rem;
+  margin: 0 0 5px;
+  color: #5e4630;
+  font-style: italic;
+}
+
+.recommendation p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.recommendation .controls {
+  margin-top: 10px;
+}
+
+.recommendation button {
+  padding: 5px 15
