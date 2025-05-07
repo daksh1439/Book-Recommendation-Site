@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Community</title>
+  <link rel="stylesheet" href="styles12.css">
+</head>
+<body>
+  <header>
+    <h1>Book Recommendations</h1>
+    <p>Join the community and discover your next favorite book!</p>
+  </header>
+
+  <main>
+    <section id="add-book">
+      <h2>Add a Recommendation</h2>
+      <form id="recommendation-form">
+        <input type="text" id="book-title" placeholder="Book Title" required>
+        <input type="text" id="book-author" placeholder="Author" required>
+        <textarea id="book-description" placeholder="Why you recommend this book?" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="recommendations">
+      <h2>Community Recommendations</h2>
+      <div id="recommendation-list"></div>
+    </section>
+  </main>
+
+  <script src="script12.js"></script>
+</body>
+</html>
