@@ -2,6 +2,8 @@
 # Group Website Project
 
 This is a group project for our SCM course. We are building a responsive website called BOOK NOOK which is a book recommendation website.
+This project focuses on designing a simple and user-friendly Book Recommendation System using HTML CSS and JS. The primary objective is to provide users with a curated list of books based on various categories such as genre, author, or popularity. 
+
 
 ## Setup Instructions
 1. Clone this repository.
